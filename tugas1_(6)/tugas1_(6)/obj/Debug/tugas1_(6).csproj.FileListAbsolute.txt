@@ -1,0 +1,7 @@
+D:\Linda pplg2\tugas1_(6)\tugas1_(6)\bin\Debug\tugas1_(6).exe.config
+D:\Linda pplg2\tugas1_(6)\tugas1_(6)\bin\Debug\tugas1_(6).exe
+D:\Linda pplg2\tugas1_(6)\tugas1_(6)\bin\Debug\tugas1_(6).pdb
+D:\Linda pplg2\tugas1_(6)\tugas1_(6)\obj\Debug\tugas1_(6).csproj.AssemblyReference.cache
+D:\Linda pplg2\tugas1_(6)\tugas1_(6)\obj\Debug\tugas1_(6).csproj.CoreCompileInputs.cache
+D:\Linda pplg2\tugas1_(6)\tugas1_(6)\obj\Debug\tugas1_(6).exe
+D:\Linda pplg2\tugas1_(6)\tugas1_(6)\obj\Debug\tugas1_(6).pdb
