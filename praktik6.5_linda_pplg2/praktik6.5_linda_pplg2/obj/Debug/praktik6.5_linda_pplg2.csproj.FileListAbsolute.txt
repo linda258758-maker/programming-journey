@@ -1,0 +1,7 @@
+D:\Linda pplg2\praktik6.5_linda_pplg2\praktik6.5_linda_pplg2\bin\Debug\praktik6.5_linda_pplg2.exe.config
+D:\Linda pplg2\praktik6.5_linda_pplg2\praktik6.5_linda_pplg2\bin\Debug\praktik6.5_linda_pplg2.exe
+D:\Linda pplg2\praktik6.5_linda_pplg2\praktik6.5_linda_pplg2\bin\Debug\praktik6.5_linda_pplg2.pdb
+D:\Linda pplg2\praktik6.5_linda_pplg2\praktik6.5_linda_pplg2\obj\Debug\praktik6.5_linda_pplg2.csproj.AssemblyReference.cache
+D:\Linda pplg2\praktik6.5_linda_pplg2\praktik6.5_linda_pplg2\obj\Debug\praktik6.5_linda_pplg2.csproj.CoreCompileInputs.cache
+D:\Linda pplg2\praktik6.5_linda_pplg2\praktik6.5_linda_pplg2\obj\Debug\praktik6.5_linda_pplg2.exe
+D:\Linda pplg2\praktik6.5_linda_pplg2\praktik6.5_linda_pplg2\obj\Debug\praktik6.5_linda_pplg2.pdb
