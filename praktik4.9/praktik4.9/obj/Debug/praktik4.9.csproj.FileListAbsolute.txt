@@ -1,0 +1,7 @@
+D:\Linda pplg2\praktik4.9\praktik4.9\bin\Debug\praktik4.9.exe.config
+D:\Linda pplg2\praktik4.9\praktik4.9\bin\Debug\praktik4.9.exe
+D:\Linda pplg2\praktik4.9\praktik4.9\bin\Debug\praktik4.9.pdb
+D:\Linda pplg2\praktik4.9\praktik4.9\obj\Debug\praktik4.9.csproj.AssemblyReference.cache
+D:\Linda pplg2\praktik4.9\praktik4.9\obj\Debug\praktik4.9.csproj.CoreCompileInputs.cache
+D:\Linda pplg2\praktik4.9\praktik4.9\obj\Debug\praktik4.9.exe
+D:\Linda pplg2\praktik4.9\praktik4.9\obj\Debug\praktik4.9.pdb
