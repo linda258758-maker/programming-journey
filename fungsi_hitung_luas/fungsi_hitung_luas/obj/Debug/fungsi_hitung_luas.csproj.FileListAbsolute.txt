@@ -1,0 +1,7 @@
+D:\Linda pplg 2\fungsi_hitung_luas\fungsi_hitung_luas\bin\Debug\fungsi_hitung_luas.exe.config
+D:\Linda pplg 2\fungsi_hitung_luas\fungsi_hitung_luas\bin\Debug\fungsi_hitung_luas.exe
+D:\Linda pplg 2\fungsi_hitung_luas\fungsi_hitung_luas\bin\Debug\fungsi_hitung_luas.pdb
+D:\Linda pplg 2\fungsi_hitung_luas\fungsi_hitung_luas\obj\Debug\fungsi_hitung_luas.csproj.AssemblyReference.cache
+D:\Linda pplg 2\fungsi_hitung_luas\fungsi_hitung_luas\obj\Debug\fungsi_hitung_luas.csproj.CoreCompileInputs.cache
+D:\Linda pplg 2\fungsi_hitung_luas\fungsi_hitung_luas\obj\Debug\fungsi_hitung_luas.exe
+D:\Linda pplg 2\fungsi_hitung_luas\fungsi_hitung_luas\obj\Debug\fungsi_hitung_luas.pdb
