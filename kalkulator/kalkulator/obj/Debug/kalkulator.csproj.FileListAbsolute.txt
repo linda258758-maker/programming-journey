@@ -1,0 +1,7 @@
+D:\Linda pplg 2\kalkulator\kalkulator\obj\Debug\kalkulator.csproj.AssemblyReference.cache
+D:\Linda pplg 2\kalkulator\kalkulator\obj\Debug\kalkulator.csproj.CoreCompileInputs.cache
+D:\Linda pplg 2\kalkulator\kalkulator\bin\Debug\kalkulator.exe.config
+D:\Linda pplg 2\kalkulator\kalkulator\bin\Debug\kalkulator.exe
+D:\Linda pplg 2\kalkulator\kalkulator\bin\Debug\kalkulator.pdb
+D:\Linda pplg 2\kalkulator\kalkulator\obj\Debug\kalkulator.exe
+D:\Linda pplg 2\kalkulator\kalkulator\obj\Debug\kalkulator.pdb
