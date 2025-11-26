@@ -1,0 +1,14 @@
+D:\Linda pplg 2\Projek_TiketKonser\Projek_TiketKonser\bin\Debug\Projek_TiketKonser.exe.config
+D:\Linda pplg 2\Projek_TiketKonser\Projek_TiketKonser\bin\Debug\Projek_TiketKonser.exe
+D:\Linda pplg 2\Projek_TiketKonser\Projek_TiketKonser\bin\Debug\Projek_TiketKonser.pdb
+D:\Linda pplg 2\Projek_TiketKonser\Projek_TiketKonser\obj\Debug\Projek_TiketKonser.csproj.AssemblyReference.cache
+D:\Linda pplg 2\Projek_TiketKonser\Projek_TiketKonser\obj\Debug\Projek_TiketKonser.Form1.resources
+D:\Linda pplg 2\Projek_TiketKonser\Projek_TiketKonser\obj\Debug\Projek_TiketKonser.Properties.Resources.resources
+D:\Linda pplg 2\Projek_TiketKonser\Projek_TiketKonser\obj\Debug\Projek_TiketKonser.csproj.GenerateResource.cache
+D:\Linda pplg 2\Projek_TiketKonser\Projek_TiketKonser\obj\Debug\Projek_TiketKonser.csproj.CoreCompileInputs.cache
+D:\Linda pplg 2\Projek_TiketKonser\Projek_TiketKonser\obj\Debug\Projek_TiketKonser.exe
+D:\Linda pplg 2\Projek_TiketKonser\Projek_TiketKonser\obj\Debug\Projek_TiketKonser.pdb
+D:\Linda pplg 2\Projek_TiketKonser\Projek_TiketKonser\obj\Debug\Projek_TiketKonser.data.resources
+D:\Linda pplg 2\Projek_TiketKonser\Projek_TiketKonser\obj\Debug\Projek_TiketKonser.Form4.resources
+D:\Linda pplg 2\Projek_TiketKonser\Projek_TiketKonser\obj\Debug\Projek_TiketKonser.form2.resources
+D:\Linda pplg 2\Projek_TiketKonser\Projek_TiketKonser\obj\Debug\Projek_TiketKonser.form5.resources
