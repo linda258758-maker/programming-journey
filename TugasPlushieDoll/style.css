@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: palevioletred;
+    color: white;
+}
+
+header{
+    text-align: center;
+    padding: 30px;
+    background: linear-gradient(to right, rgb(234, 183, 227), white);
+}
+
+header h1{
+    margin: 0;
+    font-size: 40px;
+}
+
+header p{
+    color: skyblue;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background: rgb(176, 164, 149);
+}
+
+nav ul li{
+    position: relative;
+    padding: 15px 25px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li:hover{
+    background: plum;
+}
+
+.dropdown{
+    display: none;
+    position: absolute;
+    background: #e2b6d6;
+    top: 50px;
+    left: 0;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.dropdown1{
+    display: none;
+    position: absolute;
+    background: #b387a7;
+    top: 50px;
+    left: 0;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+nav ul li:hover .dropdown{
+    display: block;
+}
+
+/* GALLERY */
+.gallery{
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+/* CARD PRODUK */
+.card{
+    background: #e2b6d6;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    width: 150px;
+    transition: 0.3s;
+}
+
+.card img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+.card h4{
+    margin: 10px 0 5px;
+}
+
+.card p{
+    color: #ffffff;
+}
+
+.card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 0 15px rgba(0,255,200,0.5);
+}
+
+/* HERO */
+.hero{
+    text-align: center;
+    margin-top: 60px;
+}
+
+.hero h2{
+    font-size: 28px;
+}
+
+.hero p{
+    color: #bbb;
+}
