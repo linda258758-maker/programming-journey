@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+<style>
+body{
+    font-family:Arial, sans-serif;
+    background:#ffeef5;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    margin: 0;
+}
+
+.login-box{
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    width:300px;
+    text-align:center;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+input{
+    width:90%;
+    padding:10px;
+    margin:10px 0;
+    border-radius:10px;
+    border:1px solid #ccc;
+    font-size: 16px;
+}
+
+button{
+    background:#ff69b4;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:10px;
+    cursor:pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+button:hover{background: #ff1493;}
+</style>
+</head>
+<body>
+
+<div class="login-box">
+    <h2>Login</h2>
+
+    <input type="email" id="email" placeholder="Masukkan Email">
+
+    <input type="password" id="password" placeholder="Masukkan Password">
+
+    <button onclick="login()">Masuk</button>
+</div>
+
+<script>
+
+function login(){
+
+    let nama = document.getElementById("email").value;
+    let email = 
+document.getElementById("email").value;
+
+    // simpan email
+    localStorage.setItem("emailUser", email);
+    localStorage.setItem("isLoggedln", "true")
+    
+    alert("Login berhasil! Selamat datang di PocaSpace");
+    
+    // pindah halaman
+    window.location.href = "Tampilan Depan.html";
+}
+
+</script>
+
+</body>
+</html>

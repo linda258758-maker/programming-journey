@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tampilan Depan</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background:#fff6fa;
+}
+
+/* HEADER */
+header{
+    background:#ffb6d5;
+    padding:15px 8%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.logo img{
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    object-fit: cover;
+}
+
+.logo span{
+   font-size: 15px;
+   font-weight: bold;
+   color:white;
+}
+
+.search-box{
+    width:40%;
+    position:relative;
+}
+
+.search-box input{
+    width:100%;
+    padding:12px 45px 12px 15px;
+    border:none;
+    border-radius:30px;
+    outline:none;
+}
+
+.search-box i{
+    position:absolute;
+    right:15px;
+    top:12px;
+    color:#ff69b4;
+}
+
+.icons{
+    display:flex;
+    gap:20px;
+}
+
+.icons i{
+    font-size:20px;
+    color:white;
+    cursor:pointer;
+}
+
+/* NAVBAR */
+nav{
+    background:white;
+    padding:15px 8%;
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    box-shadow:0 2px 10px rgba(0,0,0,0.1);
+}
+
+nav a{
+    text-decoration:none;
+    color:#ff69b4;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#ff1493;
+}
+
+/* HERO */
+.hero{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:70px 8%;
+    background:linear-gradient(to right,#ffd6ea,#fff);
+}
+
+.hero-text{
+    width:50%;
+}
+
+.hero-text h1{
+    font-size:50px;
+    color:#ff4f9a;
+}
+
+.hero-text p{
+    margin-top:15px;
+    color:#555;
+    line-height:1.8;
+}
+
+.buttons{
+    margin-top:25px;
+}
+
+.btn{
+    padding:13px 30px;
+    border:none;
+    border-radius:30px;
+    cursor:pointer;
+    font-size:16px;
+    margin-right:10px;
+}
+
+.btn-primary{
+    background:#ff69b4;
+    color:white;
+}
+
+.btn-secondary{
+    background:white;
+    border:2px solid #ff69b4;
+    color:#ff69b4;
+}
+
+.hero img{
+    width:400px;
+}
+
+/* FITUR */
+.features{
+    padding:60px 8%;
+}
+
+.section-title{
+    text-align:center;
+    font-size:35px;
+    color:#ff69b4;
+    margin-bottom:40px;
+}
+
+.feature-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+}
+
+.feature-card{
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    text-align:center;
+    box-shadow:0 5px 15px rgba(0,0,0,0.08);
+    transition:0.3s;
+}
+
+.feature-card:hover{
+    transform:translateY(-8px);
+}
+
+.feature-card i{
+    font-size:35px;
+    color:#ff69b4;
+    margin-bottom:15px;
+}
+
+/* KATEGORI */
+.categories{
+    padding:60px 8%;
+}
+
+.category-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+    gap:20px;
+}
+
+.category-card{
+    background:white;
+    border-radius:10px;
+    overflow:hidden;
+    text-align:center;
+    box-shadow:0 60px 100px rgba(0,0,0,0.08);
+    transition:0.3s;
+}
+
+.category-card:hover{
+    transform:scale(1.05);
+}
+
+.category-card img{
+    width:100%;
+    height:400px;
+    object-fit:cover;
+}
+
+.category-card h3{
+    padding:15px;
+    color:#ff69b4;
+}
+
+/* FOOTER */
+footer{
+    background:#ffb6d5;
+    text-align:center;
+    padding:25px;
+    color:white;
+    margin-top:50px;
+}
+
+/* RESPONSIVE */
+@media(max-width:900px){
+    .hero{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .hero-text{
+        width:100%;
+    }
+
+    .hero img{
+        width:100%;
+        margin-top:30px;
+    }
+
+    .search-box{
+        display:none;
+    }
+
+    nav{
+        flex-wrap:wrap;
+    }
+}
+</style>
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <img src="Logo.jpeg" alt="Logo">
+        <span>PocaSpace</span>
+    </div>
+
+    <div class="search-box">
+        <input type="text" placeholder="Cari photocard favoritmu...">
+        <i class="fas fa-search"></i>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-heart"></i>
+        <i class="fas fa-shopping-cart"></i>
+        <i class="fas fa-user"></i>
+    </div>
+</header>
+
+<nav>
+    <a href="Tampilan Depan.html">
+        Beranda
+    </a>
+
+    <a href="Katalog.html">
+        Katalog
+    </a>
+
+    <a href="Login.html">
+        Login
+    </a>
+</nav>
+
+<section class="hero">
+    <div class="hero-text">
+        <h1>Temukan Photocard Favoritmu!</h1>
+        <p>
+            Koleksi photocard K-pop original, lucu,
+            aesthetic dan berkualitas hanya di
+            <b>PocaSpace</b>.
+        </p>
+
+        <div class="buttons">
+            <button class="btn btn-primary">
+                Belanja Sekarang
+            </button>
+        </div>
+    </div>
+
+    <img src="https://i.pinimg.com/736x/8f/8d/3b/8f8d3b67733d82ea4d3bdbf7d76ec3bd.jpg" alt="">
+</section>
+
+<section class="features">
+    <h2 class="section-title">
+        Kenapa Pilih PocaSpace?
+    </h2>
+
+    <div class="feature-grid">
+
+        <div class="feature-card">
+            <i class="fas fa-check-circle"></i>
+            <h3>100% Original</h3>
+            <p>Photocard original & terpercaya.</p>
+        </div>
+
+        <div class="feature-card">
+            <i class="fas fa-box"></i>
+            <h3>Pengiriman Aman</h3>
+            <p>Dikemas aman anti rusak.</p>
+        </div>
+
+        <div class="feature-card">
+            <i class="fas fa-tags"></i>
+            <h3>Harga Terjangkau</h3>
+            <p>Banyak promo menarik.</p>
+        </div>
+
+        <div class="feature-card">
+            <i class="fas fa-headset"></i>
+            <h3>Fast Response</h3>
+            <p>Admin ramah & cepat respon.</p>
+        </div>
+
+    </div>
+</section>
+
+<section class="categories">
+    <h2 class="section-title">
+        Kategori Populer
+    </h2>
+
+    <div class="category-grid">
+
+        <div class="category-card">
+            <img src="BlackPink.jpeg">
+            <h3>BlackPink</h3>
+        </div>
+
+        <div class="category-card">
+            <img src="BTS OT7.jpeg">
+            <h3>BTS</h3>
+        </div>
+
+        <div class="category-card">
+            <img src="Enhypen.jpeg">
+            <h3>Enhypen</h3>
+        </div>
+
+        <div class="category-card">
+            <img src="Treasure.jpeg">
+            <h3>Treasure</h3>
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    © 2026 PocaSpace - All Rights Reserved
+</footer>
+
+</body>
+</html>
